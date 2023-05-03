@@ -1,0 +1,141 @@
+{
+  "id": "abd5685c-5611-4466-8139-c8ec18fd9ff7",
+  "version": "2.0",
+  "name": "day1",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "f2327daa-e978-4e77-ac62-647608d9cf0d",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "6d14575f-d190-4590-8abc-16b7a81a4044",
+    "name": "tc001",
+    "commands": [{
+      "id": "9daed2d9-73a0-45db-bd9d-938361855731",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "370ed328-cb3e-4145-aba5-4a0c0a15931a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1370x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3fa4fc0-897d-4038-a87a-32900d5a85aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs",
+      "targets": [
+        ["linkText=Phones & PDAs", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones & PDAs')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=24')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones & PDAs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f1a14c-7243-46d4-8882-e3f36a97096a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": "54,65"
+    }, {
+      "id": "b6eb63b5-2d81-4e63-8c8b-35362639ade0",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": "54,65"
+    }, {
+      "id": "25e4eb91-30c3-4a18-8e83-755f07524784",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": "54,65"
+    }, {
+      "id": "c9f4279b-3148-4d55-bdcb-9da974b6a973",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "659d5708-762e-4aef-96e1-ce7a3d7a92ef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c0525cbb-1200-42ee-a040-b285a6b87a5a",
+    "name": "tc003",
+    "commands": [{
+      "id": "97e9812d-5e84-4050-a012-80ede979a91a",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c88a70ba-8c22-493b-aa25-aac9560d4f75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1370x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ee23131-1301-402b-a771-7291dce45846",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MacBook",
+      "targets": [
+        ["linkText=MacBook", "linkText"],
+        ["css=.col:nth-child(1) > form .content a", "css:finder"],
+        ["xpath=//a[contains(text(),'MacBook')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/form/div/div[2]/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/product&language=en-gb&product_id=43')])[2]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MacBook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fab7280-2309-4816-b651-dc2255ad1811",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "da2018b5-ca9f-43dd-affe-9f929124224a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f2327daa-e978-4e77-ac62-647608d9cf0d"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
